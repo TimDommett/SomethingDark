@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+ system("clear")
+require_relative "Game"
+
+if $PROGRAM_NAME == __FILE__
+  # running as script
+    Game.new
+
+end
